@@ -1,0 +1,27 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-positive">
+      <ion-nav-back-button></ion-nav-back-button>
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="side-menu21"></ion-nav-view>
+  </ion-side-menu-content>
+  <ion-side-menu side="left" id="side-menu21">
+    <ion-header-bar class="bar-positive">
+      <div class="title">Menu</div>
+    </ion-header-bar>
+    <ion-content padding="false" class="side-menu-left has-header ">
+      <ion-list id="menu-list1">
+        <ion-item class="item-avatar  perfil" id="menu-list-item8">
+          <h2>Cristian Navia Santos</h2>
+        </ion-item>
+        <ion-item class="item-icon-left dark" id="menu-list-item1" ui-sref="menu.sucursalesCercanas" menu-close="">
+          <i class="icon ion-android-contacts"></i>Sucursales Cercanas</ion-item>
+        <ion-item class="item-icon-left" id="menu-list-item2" ui-sref="menu.favoritos" menu-close="">
+          <i class="icon ion-ios-heart"></i>Favoritos</ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>
